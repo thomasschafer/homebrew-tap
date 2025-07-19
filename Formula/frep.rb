@@ -1,8 +1,8 @@
 class Frep < Formula
   desc "Fast find-and-replace CLI"
   homepage "https://github.com/thomasschafer/frep"
-  url "https://github.com/thomasschafer/frep/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "39ba43e44884aa2f8d3394cfca39a28c66c264b741894b3092e7d1350a502f6a"
+  url "https://github.com/thomasschafer/frep/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "f09e8ceb5e3f411b19548ce9b70c7bf9180dfc1ee75ee3c3784479adacc656d4"
   license "MIT"
 
   depends_on "rust" => :build
