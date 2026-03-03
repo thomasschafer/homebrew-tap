@@ -2,29 +2,29 @@ class Kiosk < Formula
   desc "Tmux session manager with worktree support"
   homepage "https://github.com/thomasschafer/kiosk"
   license "MIT"
-  version "0.2.2"
+  version "0.2.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.2/kiosk-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "8cb5552f9ff1ec6bd3c57323d8a5d315a9b8f74b962e6f71d6f27f01e726f6b1"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.3/kiosk-v0.2.3-x86_64-apple-darwin.tar.gz"
+      sha256 "0b3033dd642fbe5a636796fd420b9d526199ef4645a11ec16290e6962d45332c"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.2/kiosk-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "e0167240937db98bf4bbcb45bf3d857a92618442486d6522b72fe31aadfb7d98"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.3/kiosk-v0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "6e4e64a4e1f8e91c1ec6a91530ff39c6c8ffefa7bda5675fc3d84aa5ea3c1a28"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.2/kiosk-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "583a7f9994da2c8c1993d1abe57bf49fa8e911081e8793b0e2cf3006ca59eabf"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.3/kiosk-v0.2.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ba50744cec445b4255ce08be654096cfc1d8b1a7eb653c4066ceef810e631dbd"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.2/kiosk-v0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d0a019e90fb20428cf951b1f06766445bc452fcb975872a1becacf4d91c6d544"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.2.3/kiosk-v0.2.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "05da0a741a58b2067d976edb3de4b3a860410f703f91349e5c5f3e5da347b2ff"
     end
   end
 
