@@ -7,24 +7,24 @@ class Workshop < Formula
   on_macos do
     on_intel do
       url "https://github.com/thomasschafer/workshop/releases/download/v0.5.0/workshop-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "fcfc662d28f93d662861d7b6bd81d843f92e3ed6334b85836d5fb36693387954"
+      sha256 "105ef3db1d19f41d1eb87900829ac4235bf1707d49a8f96266aba75e6896a5b1"
     end
 
     on_arm do
       url "https://github.com/thomasschafer/workshop/releases/download/v0.5.0/workshop-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "eafcc6e7e9eb61419356f497989d8f208499d064968a034b6f737342b016e5a8"
+      sha256 "255376e1b142e3f864c2e84a32e7c650d68bf7cdde8f9b7ab860fd87029f76f0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/thomasschafer/workshop/releases/download/v0.5.0/workshop-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a192c02dcf7aff0efa5dc06d77b96b045d66dd08ef850a52a067763c00247f98"
+      sha256 "3981cf3850b34cf84df2519d0749004d38ed320218fe47324313399b914fb82b"
     end
 
     on_arm do
       url "https://github.com/thomasschafer/workshop/releases/download/v0.5.0/workshop-v0.5.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e427b0a42a25df13525338d32ca1d584048654d5bb753d6403d3e6f192d941ff"
+      sha256 "e33b6197c0a9f02efda683757309200a1f242ea39c98cf4ae18562e9834b0e47"
     end
   end
 
