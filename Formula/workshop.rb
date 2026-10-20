@@ -1,30 +1,30 @@
 class Workshop < Formula
   desc "Solve Advent of Code puzzles by voice, from your phone"
   homepage "https://github.com/thomasschafer/workshop"
-  version "0.6.0"
+  version "0.7.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.6.0/workshop-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "36f5339440ca1e97dc6bda7c79cb41a3f9b3f28e5b91ff12313d95085a196b36"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ff81dc2525b559688bac8261fd9121384701d74eaa1b200bb4dc5060569f8bc7"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.6.0/workshop-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a0c166e73d761f99dfdb7f8b577204e4050f87d100d952f8518eedf4b31193a1"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "814bc0deb9da82d04803243a158d77fff202e00e9bfeaaaf4783353726d5adee"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.6.0/workshop-v0.6.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "de7b91a9a00bb40f1502060928490bd684a6c47d320991ce21cbd08a9e0a496e"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "639eeec4661c9f1dff7e9ca1b7ed0506ac0d4f0f29eb6f9c5932c08369c6945d"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.6.0/workshop-v0.6.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1263b5f5f2a4ce9ac037085b1a201c1d0647982bea8139a450957891cda7c37b"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1c311998c319dfba058bc88777b010c9788abf69058ce5b29dcda359ef8b68bb"
     end
   end
 
