@@ -5,25 +5,25 @@ class Workshop < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ff81dc2525b559688bac8261fd9121384701d74eaa1b200bb4dc5060569f8bc7"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.8.0/workshop-v0.8.0-x86_64-apple-darwin.tar.gz"
+      sha256 "3bc052feb6985c5acae2ec50a2333fd61db25ff59e673ecbe6f7ef6e405b1a14"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "814bc0deb9da82d04803243a158d77fff202e00e9bfeaaaf4783353726d5adee"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.8.0/workshop-v0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0da5862ce942c7ac0f133f996e2d146efc3440b1d4f8dc78859697a5ff8c4b17"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "639eeec4661c9f1dff7e9ca1b7ed0506ac0d4f0f29eb6f9c5932c08369c6945d"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.8.0/workshop-v0.8.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "170485e29a937d194f754aed69dbdc99c87b6b3baad2726a970359bb915b859a"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/workshop/releases/download/v0.7.0/workshop-v0.7.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1c311998c319dfba058bc88777b010c9788abf69058ce5b29dcda359ef8b68bb"
+      url "https://github.com/thomasschafer/workshop/releases/download/v0.8.0/workshop-v0.8.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "72ce94033f346c1c6ba4974bdc2ab1de4a4363da3c3f68a53f36fc832a3cff57"
     end
   end
 
