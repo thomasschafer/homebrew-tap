@@ -2,7 +2,6 @@ class Kiosk < Formula
   desc "Tmux session manager with worktree support"
   homepage "https://github.com/thomasschafer/kiosk"
   license "MIT"
-  version "0.2.3"
 
   on_macos do
     on_intel do
