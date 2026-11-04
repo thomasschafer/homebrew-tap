@@ -5,25 +5,25 @@ class Kiosk < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.3.0/kiosk-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "92f40ebccb1e423563a8ca9fed49a8eacd969cdc9da8af85a262184f767ac19e"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.4.0/kiosk-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "81d57f47b668b601d01066262d4ff0559f2488bd841384ab5f9c04d5252a5f94"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.3.0/kiosk-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b5f2cc382788f4d263eba2463534c5c3a6f3d2414efb75d891f7881178417dcb"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.4.0/kiosk-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "81d795fe169ca014b294f4e4b2389ce2754dcf2a4ac2264fb32ffdde924e91fb"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.3.0/kiosk-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fa7f27495de56a47018a30a6f50857131d185192ae63d0282941bd4d3713b85d"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.4.0/kiosk-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "41632f185187e8217ce44928db2e0db982ca12f23720b83dd47f204e55ff1133"
     end
 
     on_arm do
-      url "https://github.com/thomasschafer/kiosk/releases/download/v0.3.0/kiosk-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2cc2c63d19f25c2b557a146a37a61fb71e637a37cd9a265887f7a54da8a97caf"
+      url "https://github.com/thomasschafer/kiosk/releases/download/v0.4.0/kiosk-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "79f9092a894fc0e6a7f0a11dc9ad9bd74818e59ca0f2c61d569291f2f3ebbc45"
     end
   end
 
